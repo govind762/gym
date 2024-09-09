@@ -1,1 +1,1 @@
-this is website for gym website my first website 
+ This is my first website.
