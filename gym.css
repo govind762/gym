@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background-color:lightgray;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    }
+nav{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    padding: 0.0001rem;
+
+}
+nav ul{ 
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+    color: grey;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #000;
+    display: block;
+    padding: 0.4rem  1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 20px 20px 30px;
+}
+.section h1{
+    margin: 0;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    display: block;
+    align-items: center;
+    background-color: #ddd;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+section:nth-child(odd) {
+    background-color:#fff;
+}
+footer h3{
+    text-align: center;
+    color: yellow;
+}
+.login{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #565656;
+    font-weight: bold;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #565656;
+    width: 100%;
+    font-size: 16px;
+}
+.login button:hover{
+    color: #000;
+}
+
+.workout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.row{
+    position: relative;
+    transition: all .40s;
+ 
+}
+.row img{
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+    border-radius: 10px;
+    
+}
+.row img:hover{
+    transform: scale(1.2);
+}
+.p h1{
+    font-size: 6rem;
+}
+.p h1 span{
+    color: hwb(0 0% 20%); 
+}
+ #f{
+    font-size: 4rem;
+ }
+.main-logo img{
+    display: flex;
+    width: 45%;
+    height: auto;
+    margin-left: 300px;
+
+}
+.main-logo img:hover{
+    transform: scale(1.2);
+}
+#f{
+    margin-bottom: 50px;
+}
+.member h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.member h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: gray;
+}
+.lion img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+.lion img:hover{
+    transform: scale(1.2);
+}
+.logo img:hover{
+  transform: scale(1.2);
+}
+.first-info h1{
+    color: hwb(0 0% 20%);
+}
+.first-info h1 span{
+    color: #000;
+}
+.contact{
+    background-color: hsl(0, 100%, 95%);
+    margin-top: 30px;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.first-info h2{
+    color: #ee1747;
+    margin-bottom: 10px;
+}
+.first-info span{
+    color: #5e5c5c;
+}
+.contcact-info h4{
+    color: #212529;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.contcact-info p{
+    color: #565656;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5p;
+    cursor: pointer;
+    transform: all 42s;
+}
+.contcact-info p:hover{
+    color: #ee1747;
+}
+.social-icon i {
+    color:#000;
+    font-size: 25px;
+    transition: 45s;
+    margin-right: 10px;
+}
+.social-icon i:hover{
+    transform: scale(1.5);
+}
+.second-info p {
+ cursor: pointer;    
+}
+.copy{
+    text-align: center;
+    background-color: #fff;
+    color: #212529;
+    font-size: 2rem;
+}
+.diet{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:100px;
+}
+.diet img{
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.diet img:hover{
+    transform: scale(1.2);
+}
+.social{
+    margin-left: 150px;
+}
+.social i{
+     font-size: 30px;
+     color: #000;
+     margin-left: 25px;
+}
+.social i:hover{
+    transform: scale(1.5);
+}
+.social  a{
+    gap: 10px;
+}
